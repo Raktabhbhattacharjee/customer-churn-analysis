@@ -7,12 +7,12 @@ I looked at telecom customer data to find out who stays longer with the company,
 - Tools used: Jupyter Notebook, pandas, matplotlib, seaborn
 
 ## What’s included
-- `Data-1.ipynb` — Notebook with all the code and charts
+- `customer_churn.ipynb` — Notebook with all the code and charts
 - Customer data CSV file
 
 ## How to use
 1. Download or clone this project folder
-2. Open `Data-1.ipynb` using Jupyter Notebook
+2. Open `customer_churn.ipynb` using Jupyter Notebook
 3. Keep the CSV data file in the same folder
 4. Run all notebook cells to see the results
 
