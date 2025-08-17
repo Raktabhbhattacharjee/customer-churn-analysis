@@ -1,25 +1,30 @@
-# Customer Churn Analysis
+# Customer Churn Analysis Report
+**Analysis of Telecom Customer Data**
+Dataset from Kaggle [https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
 
-## What this project is about
-I looked at telecom customer data to find out who stays longer with the company, who leaves, and how much different customers spend monthly.
+## Overview
+This analysis examines customer behavior patterns, spending habits, and churn rates to understand:
+- Who our customers are (new vs established)
+- How much they spend monthly and total
+- Which customers stay loyal vs those who leave
+- Key insights for business strategy
 
-- Data file: WA_Fn-UseC_-Telco-Customer-Churn.csv
-- Tools used: Jupyter Notebook, pandas, matplotlib, seaborn
+**Dataset:** 7,043 telecom customers with 21 attributes including tenure, charges, and churn status.
 
-## What’s included
-- `customer_churn.ipynb` — Notebook with all the code and charts
-- Customer data CSV file
+## Files
+- `customer_churn.ipynb`: Jupyter notebook with all code and analysis
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv`: Raw customer data file
 
-## How to use
-1. Download or clone this project folder
-2. Open `customer_churn.ipynb` using Jupyter Notebook
-3. Keep the CSV data file in the same folder
-4. Run all notebook cells to see the results
+## How to Run
+1. Download or clone this repo
+2. Put both the notebook and CSV file in the same folder
+3. Open the notebook `customer_churn.ipynb` in Jupyter
+4. Run all cells to replicate the analysis and visualizations
 
-## Main findings
-- Customers grouped by how long they stay and how much they pay
-- Compared leaving rates of big spenders vs regular customers
-- Focused on cleaning data and explaining in simple way
+## Key Insights
+- Customers segmented by tenure and spending levels
+- Churn rates comparison between high spenders and regular customers
+- Focus on data cleaning and easy-to-understand explanations
 
-## Questions?
-Feel free to open an issue or contact me here.
+## Contact
+If you have any questions, feel free to open an issue here or contact me.
